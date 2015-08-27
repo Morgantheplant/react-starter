@@ -1,4 +1,6 @@
-# react-starter
+# react-flux-todoMVC-starter
+
+## Substack starter kit with flux TodoMVC 
 
 bare-bones [react](https://facebook.github.io/react/) starter
 using [reactify](https://npmjs.com/package/reactify) for jsx
@@ -21,31 +23,6 @@ $ npm start
 * `npm run watch` - automatically recompile during development
 * `npm start` - start a static development web server
 
-# starter code
-
-``` js
-var React = require('react')
-var App = React.createClass({
-  getInitialState: function () { return { n: 0 } },
-  render: function () {
-    return <div>
-      <h1>clicked {this.state.n} times</h1>
-      <button onClick={this.handleClick}>click me!</button>
-    </div>
-  },
-  handleClick: function () {
-    this.setState({ n: this.state.n + 1 })
-  }
-})
-React.render(<App />, document.querySelector('#content'))
-```
-
-# contributing
-
-If you like what you see, but want to add something more, fork this repo and add
-your additional feature to the name of the fork. Try to be specific with the
-name of your fork, listing the technologies used plus what features the fork
-adds.
 
 # variations
 
@@ -55,3 +32,7 @@ to see how other people have customized this starter repo.
 # license
 
 This software is released into the public domain.
+
+## Credit
+
+[Substack](https://github.com/substack) starter kit [https://github.com/substack/react-starter](https://github.com/substack/react-starter) with the TodoMVC application created by [Bill Fisher](https://www.facebook.com/bill.fisher.771). 
