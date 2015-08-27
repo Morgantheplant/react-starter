@@ -1,7 +1,8 @@
 {
 
   "name": "react-flux-todoMVC-starter",
-  "description": "react-flux-todoMVC-starter project",
+  "description": "react-flux and todoMVC-starter project",
+  "repository":"https://github.com/Morgantheplant/react-starter-flux-todoMVC.git",
   "browserify": {
     "transform": [
       "reactify"
