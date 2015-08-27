@@ -1,13 +1,12 @@
-# react-flux-todoMVC-starter
+# react-starter & flux TodoMVC
 
-## Substack starter kit with flux TodoMVC 
+##Substack react-starter kit with flux TodoMVC 
 
 bare-bones [react](https://facebook.github.io/react/) starter
 using [reactify](https://npmjs.com/package/reactify) for jsx
 under [browserify](http://browserify.org)/[watchify](https://npmjs.com/package/watchify)
 with [npm run scripts](http://substack.net/task_automation_with_npm_run)
 
-[view the starter demo](http://substack.neocities.org/react_starter.html)
 
 # quick start
 
